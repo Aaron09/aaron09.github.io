@@ -1,24 +1,108 @@
-body {
+.all-container {
     padding: 1%;
 }
 
-#container {
-    padding: 1%;
+.head-information {
+    width: 100vw;
+    margin-top: 1%;
 }
 
-#self-photo {
-    width: 33%;
-    height: 10%;
-    padding: 1%;
+.head-information > * {
     float: left;
 }
 
-#content {
-    width: 66%;
-    padding: 1%;
-    float: right;
+.name {
+    font-family: "Bangla MN", "serif";
+    font-size: 30px;
 }
 
-#name {
-    font-family: "Bangla MN", "", "serif";
+.icon-link-div {
+    width: 14vw;
+    margin-left: 4%;
+}
+
+.icon-link-div > * {
+    margin-left: 1%;
+} 
+
+.link-icon-div > a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.link-icon {
+    width: 3vw;
+    height: 3vw;
+}
+
+.about-information {
+    clear: both;
+}
+
+.self-photo-img {
+    width: 9vw; 
+    height: 22vh; 
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.main-content > * {
+    float: left;
+}
+
+.dog-text {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 20px;
+    padding-bottom: 3%;
+    border-bottom: 1px solid gray;
+}
+
+.about-me-content {
+    width: 30vw;
+}
+
+.dog-image {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 33vw;
+    height: 60vh;
+    padding-bottom: 2%;
+}
+
+.work-content {
+    margin-top: 1%;
+}
+
+.work-text {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+    padding-bottom: 3%;
+}
+
+.work-experience {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 14px;
+}
+
+.projects {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 14px;
+}
+
+.work-experience-content {
+    margin-top: 3%;
+    height: 57vh;
+    overflow-y: scroll;
+}
+
+.work-exp-logo {
+    width: 90%;
+    height: 35%;
+}
+
+.work-exp-desc {
+    margin-top: 3%;
 }

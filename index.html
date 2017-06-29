@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<link rel="stylesheet" type=text/css href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-<link rel="stylesheet" type="text/css" href="style.css" >
-<title> Aaron Green </title>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type=text/css href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title> Aaron Green </title>
 </head>
 <body>
-
-<div id="container">
-    <div id="self-photo">
-        <img src="self-photo.png" style=width:100%;height:100%;>
-    </div>
-
-    <div id="content">
-        <div id="bio">
-            <div id="name">
-                <h2> Aaron Green </h2>
+    <div class="well">
+        <div class="header-content">
+            <div class="head-information">
+                <span class="name"> Aaron Green </span>
+                <div class="icon-link-div">
+                    <a href="https://drive.google.com/open?id=0B80RF18D41qZaW1qSXd4emxUSW8"> <img class="link-icon" src="img/resume_icon.png"> </a>
+                    <a href="mailto:aarongg2@illinois.edu" target="_top"> <img class="link-icon" src="img/email_icon.png"> </a>
+                    <a href="https://github.com/aaron09"> <img class="link-icon" src="img/github_icon.png"> </a>
+                    <a href="https://linkedin.com/in/aarongg09"> <img class="link-icon" src="img/linkedin_icon.png"> </a>
+                </div>
             </div>
-            <div id="about">
+            <div class="about-information">
                 <p> I like to play soccer and smash buttons on a keyboard until things happen. </p>
             </div>
+            <div class="smartphoto-prompt">
+                <p> Oh, and I know you're probably in a rush, but if you've got a few minutes, check out <a href="https://smartphoto.herokuapp.com/home"> SmartPhoto</a>. In my completely biased opinion, I think it's pretty cool.</p>
+            </div>
         </div>
-        <div id="contacts">
-            <p>
-            <a href="https://drive.google.com/open?id=0B80RF18D41qZaW1qSXd4emxUSW8"> Resume </a>
-                |
-            <a href="mailto:aarongg2@illinois.edu" target="_top"> Email </a>
-                |
-            <a href="https://github.com/aaron09"> Github </a>
-                |
-            <a href="https://linkedin.com/in/aarongg09"> LinkedIn </a>
-            </p>
+        <img class="self-photo-img" src="img/self-photo.png">
+    </div>
+    <div class="main-content">
+        <div class="panel panel-default" style="width: 35vw; margin-left: 1%;">
+            <div class="about-me-content" style="text-align: center;">
+                <div class="dog-info">
+                    <div>
+                        <span class="dog-text"> I also have a dog. </span>
+                    </div>
+                    <img class="dog-image" src="img/dog_image.jpeg" />
+                </div>
+            </div>
         </div>
-        <div id="ezlinkprompt">
-            <p>
-                Oh, and text an image of a business card to "(872) 240-5571" if you'd like an automatically generated contact card for it.
-            </p>
-            <p>
-                Disclaimer: that's not my phone number.
-            </p>
+        <div class="panel panel-default" style="width: 60vw; margin-left: 2%;">
+            <div class="work-content-header"> 
+                <span class="work-text"> My Experience </span>
+            </div>
+            <div class="work-content">
+                <div class="col-sm-6"> 
+                    <div class="work-experience-title">
+                        <span class="work-exp"> Work Experience </span>
+                    </div>
+                    <div class="work-experience-content">
+                        <div class="optum-work">
+                            <img class="work-exp-logo" src="img/optum_logo.png">
+                            <div class="work-exp-desc">
+                                <p> I developed an internal web application using React.js, Django, Redis, and Oracle SQL built to handle and extract insights from millions of database transactions per hour. </p>
+                            </div>
+                        </div>
+                        <div class="aarp-work">
+                            <img class="work-exp-logo" src="img/aarp_logo.png">
+                            <div class="work-exp-desc">
+                                <p> I built a skill for the Amazon Alexa and an android application and email bot to facilitate user data collection for the skill. I also designed, developed, and deployed a scalable backend infrastructure using Flask, Apache, and Amazon EC2 for dedicated audio conversion for all custom audio Alexa skills at AARP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6"> 
+                    <div class="projects-title">
+                        <span class="projects"> Projects </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" > </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" > </script>
 </body>
 </html>
