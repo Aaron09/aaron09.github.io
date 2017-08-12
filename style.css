@@ -34,18 +34,12 @@
     height: 3vw;
 }
 
-.about-information {
-    clear: both;
+.link-icon:hover {
+    opacity: .75;
 }
 
-.self-photo-img {
-    width: 9vw; 
-    height: 22vh; 
-    top: 0;
-    right: 0;
-    position: absolute;
-    margin-top: 1%;
-    margin-right: 2%;
+.about-information {
+    clear: both;
 }
 
 .main-content > * {
@@ -75,11 +69,9 @@
     margin-top: 1%;
 }
 
-.work-text {
+.work-exp {
     font-family: Tahoma, Verdana, Segoe, sans-serif;
-    font-size: 20px;
-    margin-left: 2%;
-    padding-bottom: 3%;
+    font-size: 18px;
 }
 
 .work-experience {
@@ -87,14 +79,13 @@
     font-size: 14px;
 }
 
-.projects {
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
-    font-size: 14px;
+.work-project-title {
+    font-weight: bold;
 }
 
 .work-experience-content {
     margin-top: 3%;
-    height: 57vh;
+    height: 61vh;
     overflow-y: scroll;
 }
 
@@ -105,4 +96,8 @@
 
 .work-exp-desc {
     margin-top: 3%;
+}
+
+.divider {
+    width: 95%;
 }
